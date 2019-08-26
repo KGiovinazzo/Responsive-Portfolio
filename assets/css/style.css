@@ -1,0 +1,150 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    background: violet;
+}
+
+.content {
+    width: 100%;
+    max-width: 960px;
+    margin: 10px;
+}
+
+/* #mainheading {
+    position: fixed;
+    width: 100%;
+    margin: 30px;
+    color: #cccccc;
+    background: #ffffff;
+    border-bottom: 2px solid white;
+} */
+
+footer {
+    padding: 30px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 8px;
+    height: 50px;
+}
+
+.my-image {
+    float: left;
+    clear: both;
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+    padding: 30px;
+}
+
+/* For main screen */
+@media only screen and (max-width: 980px){
+    #mainheader {
+        max-width: 980px;
+        text-align: center;
+    }
+    .content {
+        max-width: 980px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .main-section {
+        float: left;
+        max-width: 980px;
+        width: auto;
+        padding: 30px;
+    }
+    .my-image {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .p {
+        float: left;
+        text-align: left;
+    }
+    body {
+        max-width: 980px;
+    }
+    h1 {
+        text-align: center;
+    }
+    }
+/* For tablet screen */
+@media only screen and (max-width: 768px){
+    #mainheader {
+        max-width: 640px;
+        text-align: center;
+    }
+    .content {
+        max-width: 768px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .main-section {
+        float: left;
+        max-width: 768px;
+        width: auto;
+        padding: 30px;
+    }
+    .my-image {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .p {
+        float: left;
+        text-align: left;
+    }
+    body {
+        max-width: 768px;
+    }
+    h1 {
+        text-align: center;
+    }
+    }
+
+/* For phone screen */
+@media only screen and (max-width: 640px){
+#mainheader {
+    max-width: 640px;
+    text-align: center;
+}
+.content {
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-section {
+    float: left;
+    max-width: 640px;
+    width: auto;
+    padding: 30px;
+}
+.my-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+.p {
+    float: left;
+    text-align: left;
+}
+body {
+    max-width: 640px;
+}
+h1 {
+    text-align: center;
+}
+}
